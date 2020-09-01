@@ -45,7 +45,7 @@ Aqui são as ferramentas utilizadas para construir esse projeto.
 * [Gulp](https://github.com/gulpjs/gulp) - Automação das tarefas de desenvolvimento tais como a compilação dos estilos e scriptss
 * [BrowserSync](https://github.com/BrowserSync/browser-sync) - Desenvolvimento em real time
 
-## Pacotes
+## 📦 Pacotes
 
 Os pacotes utilizado nesse projeto.
 
