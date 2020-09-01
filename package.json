@@ -1,0 +1,31 @@
+{
+  "name": "bemol-supermercado",
+  "version": "1.0.0",
+  "description": "Projeto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipemotabr/bemol-supermercado.git"
+  },
+  "author": "Felipe Mota",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipemotabr/bemol-supermercado/issues"
+  },
+  "homepage": "https://github.com/felipemotabr/bemol-supermercado#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2",
+    "gulp-data": "^1.3.1",
+    "gulp-nunjucks": "^5.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "nunjucks": "^3.2.2"
+  }
+}
