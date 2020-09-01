@@ -43,7 +43,7 @@ Aqui são as ferramentas utilizadas para construir esse projeto.
 * [Visual Studio Code](https://github.com/microsoft/vscode) - IDE para desenvolvimento do código
 * [Sass](https://github.com/sass/sass) - Para fazer o CSS
 * [Gulp](https://github.com/gulpjs/gulp) - Automação das tarefas de desenvolvimento tais como a compilação dos estilos e scriptss
-* [BrowserSync](https://github.com/BrowserSync/browser-sync) - Desenvolvimento em real time
+* [Browsersync](https://github.com/BrowserSync/browser-sync) - Desenvolvimento em real time
 
 ## 📦 Pacotes
 
@@ -52,7 +52,7 @@ Os pacotes utilizado nesse projeto.
 | __Pacotes__                                                                                 | __Versão__  |
 | ------------------------------------------------------------------------------------------- | ----------- |
 |  [Bootstrap](https://github.com/twbs/bootstrap)                                             |   ^4.5.2    |
-|  [browser-sync](https://github.com/BrowserSync/browser-sync)                                |   ^2.26.12  |
+|  [Browsersync](https://github.com/BrowserSync/browser-sync)                                |   ^2.26.12  |
 |  [Gulp](https://github.com/gulpjs/gulp)                                                     |   ^4.0.2    |
 |  [gulp-rename](https://github.com/hparra/gulp-rename)                                       |   ^2.0.0    |
 |  [gulp-sass](https://github.com/dlmanning/gulp-sass)                                        |   ^4.1.0    |
