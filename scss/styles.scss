@@ -1,6 +1,85 @@
+@use "sass:map";
 
 body {
-    // color: white;
-    // background: rgb(92,18,18);
-    // height: 400vh;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header-main {
+  padding: 18px 0;
+}
+
+.icontext {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  vertical-align: middle;
+}
+.text-login {
+  color: #000000;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.cart {
+  background-color: $red;
+  padding: 2px 31px;
+    border-radius: 5px;
+}
+.cart span{
+  color: #fff!important;
+}
+.search .form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #fff!important;
+  outline: 0;
+  box-shadow: 0!important;
+}
+.search input.form-control {
+  padding: 22px;
+  border-color: #979797;
+}
+
+.search input::placeholder {
+  color:#ABABAB
+}
+
+.search .btn {
+  padding-left:20px;
+  padding-right: 20px;
+}
+
+// Menu Principal
+.navbar-bg {
+  background-color: $bg-azul;
+}
+a.nav-link {
+  color: $text-white;
+  padding-left: 39px!important;
+  padding-right: 39px!important;
+  padding-top: 16px!important;
+  padding-bottom: 16px!important;
+}
+a:hover.nav-link {
+  background-color: $red;
+}
+nav.navbar.navbar-main.navbar-expand-lg.navbar-bg {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+// Respnsivo
+@media (max-width: 991px) {
+  .header-main {
+    background-color: $bg-mobile;
+  }
+  .logo {
+    margin-bottom: 10px;
+  }
+  .hidden-mobile {
+    display: none!important;
+  } 
 }

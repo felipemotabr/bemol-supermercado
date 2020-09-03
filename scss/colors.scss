@@ -1,3 +1,8 @@
-// $theme-colors: (
-//      "primary": #FF69B4
-// );
+@use "sass:map";
+$theme-colors: (
+     "primary": #E63027
+);
+$bg-mobile: #007BD4;
+$red: #E63027;
+$bg-azul: #0092D4;
+$text-white: #ffffff;
