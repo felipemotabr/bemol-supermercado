@@ -1,4 +1,3 @@
-@use "sass:map";
 /*!
  * Bootstrap v4.5.2 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -7154,7 +7153,6 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-@use "sass:map";
 body {
   font-family: 'Open Sans', sans-serif; }
 
@@ -7171,17 +7169,32 @@ body {
   vertical-align: middle; }
 
 .text-login {
-  color: #000000;
   margin-right: 20px;
   margin-left: 10px; }
 
+.text-login a {
+  color: #000000; }
+
 .cart {
   background-color: #E63027;
-  padding: 2px 31px;
-  border-radius: 5px; }
+  border-radius: 5px;
+  display: flex;
+  width: 132px;
+  align-items: center; }
 
 .cart span {
-  color: #fff !important; }
+  color: #fff !important;
+  padding-left: 9px;
+  font-size: 12px;
+  padding: 6px 0;
+  line-height: 14px; }
+
+.cart span img {
+  margin-left: 12px;
+  margin-right: 12px; }
+
+.search .form-control {
+  position: relative; }
 
 .search .form-control:focus {
   color: #495057;
@@ -7192,14 +7205,24 @@ body {
 
 .search input.form-control {
   padding: 22px;
-  border-color: #979797; }
+  border-color: #979797;
+  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 5px !important; }
 
 .search input::placeholder {
   color: #ABABAB; }
 
 .search .btn {
-  padding-left: 20px;
-  padding-right: 20px; }
+  padding: 7.5px 30px;
+  font-size: 20px;
+  border-top-left-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+  position: absolute;
+  right: 0;
+  z-index: 3; }
+
+.search .input-group-append {
+  margin-left: 0px; }
 
 .navbar-bg {
   background-color: #0092D4; }
@@ -7219,9 +7242,25 @@ nav.navbar.navbar-main.navbar-expand-lg.navbar-bg {
   padding-bottom: 0; }
 
 @media (max-width: 991px) {
+  body {
+    margin-top: 100px; }
   .header-main {
-    background-color: #007BD4; }
+    background-color: #007BD4;
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+    margin-top: -100px; }
   .logo {
-    margin-bottom: 10px; }
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0 10px; }
   .hidden-mobile {
-    display: none !important; } }
+    display: none !important; }
+  .cart {
+    position: fixed;
+    top: 15px;
+    right: -80px !important; }
+  .icontext {
+    display: block !important; }
+  .search .btn {
+    padding: 7.5px 20px; } }
