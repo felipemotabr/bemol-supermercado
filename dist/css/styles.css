@@ -7336,24 +7336,24 @@ nav.navbar.navbar-main.navbar-expand-lg.navbar-bg {
     .delivery {
       padding: 11px 20px; } }
 
-.card-offer .card {
+.card-offer .card-offer-item {
   border: 0; }
-  .card-offer .card a {
+  .card-offer .card-offer-item a {
     color: #0A5BA6; }
-  .card-offer .card .card-title {
+  .card-offer .card-offer-item .card-title {
     font-size: 20px;
     color: #1080E7;
     font-weight: 700;
     margin-top: 12px; }
     @media (max-width: 991px) {
-      .card-offer .card .card-title {
+      .card-offer .card-offer-item .card-title {
         font-size: 16px; } }
-  .card-offer .card p {
+  .card-offer .card-offer-item p {
     color: #0A5BA6;
     font-size: 16px;
     font-weight: 400; }
     @media (max-width: 991px) {
-      .card-offer .card p {
+      .card-offer .card-offer-item p {
         font-size: 12px; } }
 
 footer {
