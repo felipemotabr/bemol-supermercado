@@ -44,6 +44,10 @@ Aqui são as ferramentas utilizadas para construir esse projeto.
 * [Sass](https://github.com/sass/sass) - Para fazer o CSS
 * [Gulp](https://github.com/gulpjs/gulp) - Automação das tarefas de desenvolvimento tais como a compilação dos estilos e scriptss
 * [Browsersync](https://github.com/BrowserSync/browser-sync) - Desenvolvimento em real time
+* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools?hl=pt-br) - Usado para depurar o código.
+* [Figma](https://www.figma.com/) - Prototipação e desenvolvimento das telas
+* [Adobe Photoshop](https://www.adobe.com/br/products/photoshop.html) - Tratamento das imagens e recorte dos banners já existentes.
+
 
 ## 📦 Pacotes
 
