@@ -70,11 +70,11 @@ Os pacotes utilizado nesse projeto.
 
 Para o Design de Interface foi utilizado o Figma. O arquivo do prótotipo assim como as screenshots das telas Web e Mobile se encontram na pasta **design** na raiz desse projeto.
 
-Confira a versão online de mobile e web clicando nas respectivas imagens:
+Confira a versão online do protótipo abaixo:
 
-![Web](/screenshot-web.png)
+[**Mobile**](https://www.figma.com/proto/TyDXpL0FRtkpHsK0gxVtfF/Bemol-Supermercado?node-id=27%3A912&scaling=scale-down)    
+[**Web**](https://www.figma.com/proto/TyDXpL0FRtkpHsK0gxVtfF/Bemol-Supermercado?node-id=23%3A872&scaling=scale-down-width)    
 
-![Mobile](/screenshot-mobile.png)
 
 
 ## ✒️ Autor
