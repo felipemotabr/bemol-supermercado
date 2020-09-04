@@ -70,6 +70,13 @@ Os pacotes utilizado nesse projeto.
 
 Para o Design de Interface foi utilizado o Figma. O arquivo do prótotipo assim como as screenshots das telas Web e Mobile se encontram na pasta **design** na raiz desse projeto.
 
+Confira a versão online de mobile e web clicando nas respectivas imagens:
+
+![Web](/screenshot-web.png)
+
+![Mobile](/screenshot-mobile.png)
+
+
 ## ✒️ Autor
 
 * **Desenvolvimento e Design** - [Felipe Mota](https://github.com/felipemotabr) 🤓
