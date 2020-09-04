@@ -13,6 +13,9 @@ body {
   margin-bottom: 40px;
   padding-bottom: 15px;
   border-bottom: 1px solid #E5E5E5;
+  @media (max-width: 991px) {
+    font-size: 20px;
+  }
 }
 
 .category {
@@ -24,14 +27,22 @@ body {
     .no-padding{
       padding-right:0;
       padding-left:0;
-    } 
+    }
+    .card-body {
+      padding: 20px 0; 
+      @media (max-width: 991px) {
+        padding: 2px 0; 
+      }
+    }
     .category-content {
-      min-height: 211px;
       border: 1px solid #D6D6D6;
       margin: auto;
       &:hover {
         background-color: #F98600;
         border-color:#F98600; ;
+      }
+      @media (max-width: 991px) {
+        // min-height: 171px;
       }
     }
     a:hover {
@@ -44,6 +55,9 @@ body {
       font-size: 16px;
       font-weight: 400;
       color:  #535353;
+        @media (max-width: 991px) {
+          font-size: 12px;
+        }
     }
     .card-deck .card {
       margin-left: 0px;
@@ -56,6 +70,10 @@ body {
       background-size: cover;
       margin-bottom: 20px;
       margin-top: 20px;
+        @media (max-width: 991px) {
+          width: 40px;
+          height: 40px;
+        }
     }
     .icon-coffee {
       background-image: url(./../../img/icons/coffee.svg);
@@ -230,6 +248,12 @@ nav.navbar.navbar-main.navbar-expand-lg.navbar-bg {
 // Cards com informações de vantagens
 .card-offer .card-offer-item {
   border: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+    @media (max-width: 991px) {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    } 
   a {
     color:  #0A5BA6;
   }
@@ -252,12 +276,84 @@ nav.navbar.navbar-main.navbar-expand-lg.navbar-bg {
   }
 }
 
+.no-margin {
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+}
+
+// Produto
+.products {
+  .product-item {
+    text-align: center;
+    padding: 20px;
+      @media (max-width: 991px) {
+        padding: 5px;
+      }
+    .add-cart {
+      opacity: 0;
+      width: 100%;
+      border-radius: 0;
+      font-weight: 600;
+      font-size: 13px;
+      display: flex;
+        .icon-cart {
+          width: 20px;
+          height: 20px;
+          background-image: url(./../../img/icons/cart.png);
+          background-size: cover;
+          position: relative;
+          margin-right: 8px;
+        }
+     }
+    &:hover{
+      box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.16);
+        @media (max-width: 991px) {
+          box-shadow: none;
+        }
+    }
+    &:hover .add-cart {
+      opacity: 1;
+        @media (max-width: 991px) {
+          opacity: 0;
+        }
+    }
+    img {
+      width: 100%;
+    }
+    h2.product-title {
+      font-size: 16px;
+      font-weight: 700;
+      margin-top: 30px;
+      margin-bottom: 10px;
+        @media (max-width: 991px) {
+          font-size: 13px;
+        }
+    }
+    .price {
+      font-size: 27px;
+      font-weight: 900;
+      color: #525252;
+        @media (max-width: 991px) {
+          font-size: 20px;
+        }
+    }
+    .text-muted {
+      color: #B9B9B9;
+      font-size: 12px;
+        @media (max-width: 991px) {
+          font-size: 10px;
+        }
+    }
+ 
+  }
+}
+
 // Rodape
 footer {
   background-color: #1080E7;
   color: #fff;
   font-size: 12px;
-  padding: 20px 0;
+  padding: 30px 0;
 }
 .terms-and-conditions {
   font-size: 12px;
@@ -266,6 +362,10 @@ footer {
   @media (max-width: 991px) {
     padding: 50px 20px;
   }
+}
+
+ol.carousel-indicators {
+  z-index: 1;
 }
 
 // Respnsivo
@@ -302,7 +402,7 @@ footer {
   .menu-main {
     position: fixed;
     top: 0;
-    z-index: 3;
+    z-index: 10;
     width: 100%;
   }
   .navbar-bg {

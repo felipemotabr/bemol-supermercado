@@ -7167,6 +7167,9 @@ body {
   margin-bottom: 40px;
   padding-bottom: 15px;
   border-bottom: 1px solid #E5E5E5; }
+  @media (max-width: 991px) {
+    .title-main {
+      font-size: 20px; } }
 
 .category {
   margin-top: 40px; }
@@ -7176,8 +7179,12 @@ body {
   .category .no-padding {
     padding-right: 0;
     padding-left: 0; }
+  .category .card-body {
+    padding: 20px 0; }
+    @media (max-width: 991px) {
+      .category .card-body {
+        padding: 2px 0; } }
   .category .category-content {
-    min-height: 211px;
     border: 1px solid #D6D6D6;
     margin: auto; }
     .category .category-content:hover {
@@ -7191,6 +7198,9 @@ body {
     font-size: 16px;
     font-weight: 400;
     color: #535353; }
+    @media (max-width: 991px) {
+      .category .card-title {
+        font-size: 12px; } }
   .category .card-deck .card {
     margin-left: 0px;
     margin-right: 0px; }
@@ -7201,6 +7211,10 @@ body {
     background-size: cover;
     margin-bottom: 20px;
     margin-top: 20px; }
+    @media (max-width: 991px) {
+      .category .icon {
+        width: 40px;
+        height: 40px; } }
   .category .icon-coffee {
     background-image: url(./../../img/icons/coffee.svg); }
   .category .category-content:hover .icon-coffee,
@@ -7337,7 +7351,13 @@ nav.navbar.navbar-main.navbar-expand-lg.navbar-bg {
       padding: 11px 20px; } }
 
 .card-offer .card-offer-item {
-  border: 0; }
+  border: 0;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  @media (max-width: 991px) {
+    .card-offer .card-offer-item {
+      margin-top: 0px;
+      margin-bottom: 0px; } }
   .card-offer .card-offer-item a {
     color: #0A5BA6; }
   .card-offer .card-offer-item .card-title {
@@ -7356,11 +7376,69 @@ nav.navbar.navbar-main.navbar-expand-lg.navbar-bg {
       .card-offer .card-offer-item p {
         font-size: 12px; } }
 
+.no-margin {
+  margin-left: 0px !important;
+  margin-right: 0px !important; }
+
+.products .product-item {
+  text-align: center;
+  padding: 20px; }
+  @media (max-width: 991px) {
+    .products .product-item {
+      padding: 5px; } }
+  .products .product-item .add-cart {
+    opacity: 0;
+    width: 100%;
+    border-radius: 0;
+    font-weight: 600;
+    font-size: 13px;
+    display: flex; }
+    .products .product-item .add-cart .icon-cart {
+      width: 20px;
+      height: 20px;
+      background-image: url(./../../img/icons/cart.png);
+      background-size: cover;
+      position: relative;
+      margin-right: 8px; }
+  .products .product-item:hover {
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.16); }
+    @media (max-width: 991px) {
+      .products .product-item:hover {
+        box-shadow: none; } }
+  .products .product-item:hover .add-cart {
+    opacity: 1; }
+    @media (max-width: 991px) {
+      .products .product-item:hover .add-cart {
+        opacity: 0; } }
+  .products .product-item img {
+    width: 100%; }
+  .products .product-item h2.product-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 10px; }
+    @media (max-width: 991px) {
+      .products .product-item h2.product-title {
+        font-size: 13px; } }
+  .products .product-item .price {
+    font-size: 27px;
+    font-weight: 900;
+    color: #525252; }
+    @media (max-width: 991px) {
+      .products .product-item .price {
+        font-size: 20px; } }
+  .products .product-item .text-muted {
+    color: #B9B9B9;
+    font-size: 12px; }
+    @media (max-width: 991px) {
+      .products .product-item .text-muted {
+        font-size: 10px; } }
+
 footer {
   background-color: #1080E7;
   color: #fff;
   font-size: 12px;
-  padding: 20px 0; }
+  padding: 30px 0; }
 
 .terms-and-conditions {
   font-size: 12px;
@@ -7369,6 +7447,9 @@ footer {
   @media (max-width: 991px) {
     .terms-and-conditions {
       padding: 50px 20px; } }
+
+ol.carousel-indicators {
+  z-index: 1; }
 
 @media (max-width: 991px) {
   body {
@@ -7396,7 +7477,7 @@ footer {
   .menu-main {
     position: fixed;
     top: 0;
-    z-index: 3;
+    z-index: 10;
     width: 100%; }
   .navbar-bg {
     background-color: transparent !important;
