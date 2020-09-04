@@ -4,6 +4,8 @@
 [![Gulp](https://img.shields.io/badge/Gulp-4.0.2-brightgreen.svg?style=flat-square)](https://github.com/gulpjs/gulp)
 [![Sass](https://img.shields.io/badge/Sass-1.26.10-brightgreen.svg?style=flat-square)](https://github.com/sass/dart-sass)
 
+![Screen](./screenshot.gif)
+
 # Bemol Supermercado
 
 Esse projeto é uma landing page para seção de produtos, alimentos, bebidas, limpeza e utilidades da Bemol.
