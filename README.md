@@ -1,3 +1,9 @@
+[![Node 12.18.3](https://img.shields.io/badge/Node-12.18.3-brightgreen.svg?style=flat-square)](https://nodejs.org/en/)
+[![Bootstrap 4.5.2](https://img.shields.io/badge/Bootstrap-4.5.2-brightgreen.svg?style=flat-square)](https://github.com/twbs/bootstrap)
+[![Browsersync](https://img.shields.io/badge/Browsersync-2.26.12-brightgreen.svg?style=flat-square)](https://github.com/BrowserSync/browser-sync)
+[![Gulp](https://img.shields.io/badge/Gulp-4.0.2-brightgreen.svg?style=flat-square)](https://github.com/gulpjs/gulp)
+[![Sass](https://img.shields.io/badge/Sass-1.26.10-brightgreen.svg?style=flat-square)](https://github.com/sass/dart-sass)
+
 # Bemol Supermercado
 
 Esse projeto é uma landing page para seção de produtos, alimentos, bebidas, limpeza e utilidades da Bemol.
@@ -48,7 +54,6 @@ Aqui são as ferramentas utilizadas para construir esse projeto.
 * [Figma](https://www.figma.com/) - Prototipação e desenvolvimento das telas.
 * [Adobe Photoshop](https://www.adobe.com/br/products/photoshop.html) - Tratamento das imagens e recorte dos banners já existentes.
 
-
 ## 📦 Pacotes
 
 Os pacotes utilizado nesse projeto.
@@ -61,6 +66,9 @@ Os pacotes utilizado nesse projeto.
 |  [gulp-rename](https://github.com/hparra/gulp-rename)                                       |   2.0.0    |
 |  [gulp-sass](https://github.com/dlmanning/gulp-sass)                                        |   4.1.0    |
 
+## 🎨 Design
+
+Para o Design de Interface foi utilizado o Figma. O arquivo do prótotipo assim como as screenshots das telas Web e Mobile se encontram na pasta **design** na raiz desse projeto.
 
 ## ✒️ Autor
 
