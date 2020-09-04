@@ -218,9 +218,16 @@ nav.navbar.navbar-main.navbar-expand-lg.navbar-bg {
   outline: 0;
 }
 
-// Banner Principal
+// Banner 
 .banner-main img {
   width: 100%;
+}
+.banner-secondary img {
+  width: 100%;
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
 }
 
 // Aviso de entrega
@@ -283,56 +290,65 @@ nav.navbar.navbar-main.navbar-expand-lg.navbar-bg {
 
 // Produto
 .products {
+  a {
+    text-decoration: none;
+  }
   .product-item {
     text-align: center;
     padding: 20px;
       @media (max-width: 991px) {
         padding: 5px;
       }
-    .add-cart {
-      opacity: 0;
-      width: 100%;
-      border-radius: 0;
-      font-weight: 600;
-      font-size: 13px;
-      display: flex;
-        .icon-cart {
-          width: 20px;
-          height: 20px;
-          background-image: url(./../../img/icons/cart.png);
-          background-size: cover;
-          position: relative;
-          margin-right: 8px;
-        }
-     }
-    &:hover{
-      box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.16);
-        @media (max-width: 991px) {
-          box-shadow: none;
-        }
+      &:hover h2.product-title{
+        text-decoration: underline
+      }
+      .add-cart {
+        opacity: 0;
+        width: 100%;
+        border-radius: 0;
+        font-weight: 600;
+        font-size: 13px;
+        display: flex;
+          .icon-cart {
+            width: 20px;
+            height: 20px;
+            background-image: url(./../../img/icons/cart.png);
+            background-size: cover;
+            position: relative;
+            margin-right: 8px;
+          }
+      }
+      &:hover{
+        box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.16);
+          @media (max-width: 991px) {
+            box-shadow: none;
+          }
+      }
+      &:hover .add-cart {
+        opacity: 1;
+          @media (max-width: 991px) {
+            opacity: 0;
+          }
+      }
+      img {
+        width: 100%;
+      }
+      h2.product-title {
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        color: #454545;
+          @media (max-width: 991px) {
+            font-size: 13px;
+          }
     }
-    &:hover .add-cart {
-      opacity: 1;
-        @media (max-width: 991px) {
-          opacity: 0;
-        }
-    }
-    img {
-      width: 100%;
-    }
-    h2.product-title {
-      font-size: 16px;
-      font-weight: 700;
-      margin-top: 30px;
-      margin-bottom: 10px;
-        @media (max-width: 991px) {
-          font-size: 13px;
-        }
-    }
+    
     .price {
       font-size: 27px;
       font-weight: 900;
       color: #525252;
+
         @media (max-width: 991px) {
           font-size: 20px;
         }
