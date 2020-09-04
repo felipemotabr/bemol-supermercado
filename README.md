@@ -6,6 +6,11 @@
 
 ![Screen](./screenshot.gif)
 
+<p align="center">
+  <a href="https://bemolsupermercado.netlify.app"><strong>Versão online</strong></a> | <a href="https://github.com/felipemotabr/bemol-supermercado/archive/master.zip">Download deste projeto</a>
+  
+</p>
+
 # Bemol Supermercado
 
 Esse projeto é uma landing page para seção de produtos, alimentos, bebidas, limpeza e utilidades da Bemol.
