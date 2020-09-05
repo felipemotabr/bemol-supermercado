@@ -1,8 +1,11 @@
-[![Node 12.18.3](https://img.shields.io/badge/Node-12.18.3-brightgreen.svg?style=flat-square)](https://nodejs.org/en/)
-[![Bootstrap 4.5.2](https://img.shields.io/badge/Bootstrap-4.5.2-brightgreen.svg?style=flat-square)](https://github.com/twbs/bootstrap)
-[![Browsersync](https://img.shields.io/badge/Browsersync-2.26.12-brightgreen.svg?style=flat-square)](https://github.com/BrowserSync/browser-sync)
-[![Gulp](https://img.shields.io/badge/Gulp-4.0.2-brightgreen.svg?style=flat-square)](https://github.com/gulpjs/gulp)
-[![Sass](https://img.shields.io/badge/Sass-1.26.10-brightgreen.svg?style=flat-square)](https://github.com/sass/dart-sass)
+<p align="center">
+<a href="https://nodejs.org/en/"><img src="https://img.shields.io/badge/Node-12.18.3-brightgreen.svg?style=flat-square" alt="Node 12.18.3"></a>
+<a href="https://github.com/twbs/bootstrap"><img src="https://img.shields.io/badge/Bootstrap-4.5.2-brightgreen.svg?style=flat-square" alt="Bootstrap 4.5.2"></a>
+<a href="https://github.com/BrowserSync/browser-sync"><img src="https://img.shields.io/badge/Browsersync-2.26.12-brightgreen.svg?style=flat-square" alt="Browsersync"></a>
+<a href="https://github.com/gulpjs/gulp"><img src="https://img.shields.io/badge/Gulp-4.0.2-brightgreen.svg?style=flat-squareg" alt="Gulp"></a>
+<a href="https://github.com/sass/dart-sass"><img src="https://img.shields.io/badge/Sass-1.26.10-brightgreen.svg?style=flat-square" alt="Sass"></a>
+<a href="https://bemolsupermercado.netlify.app/"><img src="https://api.netlify.com/api/v1/badges/fddb5cf6-4ecf-4a72-8eed-b51d22cac2fc/deploy-status" alt="Netlify"></a>
+</p>
 
 ![Screen](./screenshot.gif)
 
