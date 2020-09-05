@@ -93,7 +93,7 @@ Confira a versão online do protótipo abaixo:
 
 ![Screenshot haring Debugger - Facebook for Developers](./screenshot-meta-tags-facebook.png)
 
-Foram utilizados algumas [Meta Tags](https://gist.github.com/lancejpollard/1978404) no head da página para uma melhor apresentação nas redes sociais. Na estruturação dos dados foi feito uso do [Schema](https://schema.org/docs/gs.html) para listar os produtos na interface da página para ter uma melhor leitura nos sites de buscas. Por fim, ainda tivemos um bom resultado com otimização, a [página online](https://bemolsupermercado.netlify.app/) teve tempo de carregamento de apenas 424 ms, considerada uma performance satisfatória 
+Foram utilizados algumas [Meta Tags](https://gist.github.com/lancejpollard/1978404) no head da página para uma melhor apresentação nas redes sociais. Na estruturação dos dados foi feito uso do [Schema](https://schema.org/docs/gs.html) para listar os produtos na interface da página para ter uma melhor leitura nos sites de buscas. Por fim, ainda tivemos um bom resultado com otimização, a [página online](https://bemolsupermercado.netlify.app/) teve tempo de carregamento de apenas 424 ms, considerada uma performance satisfatória. 
 
 [**Resultado Sharing Debugger**](https://developers.facebook.com/tools/debug/?q=https%3A%2F%2Fbemolsupermercado.netlify.app)
 
