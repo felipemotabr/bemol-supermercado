@@ -86,7 +86,7 @@ Confira a versão online do protótipo abaixo:
 [**Web**](https://www.figma.com/proto/TyDXpL0FRtkpHsK0gxVtfF/Bemol-Supermercado?node-id=23%3A872&scaling=scale-down-width)
 
 
-## 🎨 SEO
+## 📈 SEO
 
 ![Screenshot haring Debugger - Facebook for Developers](./screenshot-meta-tags-facebook.png)
 
