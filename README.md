@@ -16,7 +16,7 @@
 
 # Bemol Supermercado
 
-Esse projeto é uma landing page para seção de produtos, alimentos, bebidas, limpeza e utilidades da Bemol.
+Este projeto é uma landing page para seção de produtos, alimentos, bebidas, limpeza e utilidades da Bemol.
 
 ### 📋 Pré-requisitos
 
@@ -24,7 +24,7 @@ Basta apenas executar o *index.html* no navegador, mas se você quiser compilar 
 
 ### 🔧 Instalação
 
-Este é um passo-a-passo que deve ser seguido para rodar o Sass e compilar os arquivos de distribuição.
+Aqui o passo-a-passo que deve ser seguido para rodar o Sass e compilar os arquivos de distribuição.
 
 Instale o CLI do Gulp globalmente na máquina:
 
@@ -54,7 +54,7 @@ gulp style
 
 ## 🛠️ Construção
 
-Aqui são as ferramentas utilizadas para construir esse projeto.
+Aqui são as ferramentas utilizadas para construir este projeto.
 
 * [Visual Studio Code](https://github.com/microsoft/vscode) - IDE para desenvolvimento do código.
 * [Sass](https://github.com/sass/sass) - Para fazer o CSS.
