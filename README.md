@@ -83,7 +83,16 @@ Para o Design de Interface foi utilizado o Figma. O arquivo do prótotipo assim 
 Confira a versão online do protótipo abaixo:
 
 [**Mobile**](https://www.figma.com/proto/TyDXpL0FRtkpHsK0gxVtfF/Bemol-Supermercado?node-id=27%3A912&scaling=scale-down)    
-[**Web**](https://www.figma.com/proto/TyDXpL0FRtkpHsK0gxVtfF/Bemol-Supermercado?node-id=23%3A872&scaling=scale-down-width)    
+[**Web**](https://www.figma.com/proto/TyDXpL0FRtkpHsK0gxVtfF/Bemol-Supermercado?node-id=23%3A872&scaling=scale-down-width)
+
+
+## 🎨 SEO
+
+![Screenshot haring Debugger - Facebook for Developers](./screenshot-meta-tags-facebook.png)
+
+Foram utilizados algumas [Meta Tags](https://gist.github.com/lancejpollard/1978404) no head da página para uma melhor apresentação nas redes sociais. Para estruturar os dados foi feito uso do [Schema](https://schema.org/docs/gs.html) para listar os produtos na interface da página para sim ter uma melhor leitura nos buscadores.
+
+[**Resultado Sharing Debugger**](https://developers.facebook.com/tools/debug/?q=https%3A%2F%2Fbemolsupermercado.netlify.app)    
 
 
 
