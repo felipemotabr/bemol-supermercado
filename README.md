@@ -97,7 +97,7 @@ Foram utilizados algumas [Meta Tags](https://gist.github.com/lancejpollard/19784
 
 [**Resultado Sharing Debugger**](https://developers.facebook.com/tools/debug/?q=https%3A%2F%2Fbemolsupermercado.netlify.app)
 
-[**Resultado da velocidade**](https://tools.pingdom.com/#5d173a9f88800000)
+[**Resultado de velocidade**](https://tools.pingdom.com/#5d173a9f88800000)
 
 
 
